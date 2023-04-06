@@ -1,6 +1,8 @@
 const searchForm = document.querySelector("#search-form");
 const searchInput = document.querySelector("#search-input");
-const currentImageContainer = document.querySelector("#current-image-container");
+const currentImageContainer = document.querySelector(
+  "#current-image-container"
+);
 const searchHistoryList = document.querySelector("#search-history");
 
 // API key for accessing the NASA API
